@@ -17,3 +17,9 @@ video-intelligence/
 ├── components/Nav.tsx
 ├── lib/claude.ts             ←  API utility
 └── .env.example
+
+
+cd video-intelligence
+cp .env.example .env.local
+# Add your ANTHROPIC_API_KEY to .env.local
+npm run dev
