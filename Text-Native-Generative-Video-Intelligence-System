@@ -1,0 +1,19 @@
+Text-Native Generative Video Intelligence System
+
+video-intelligence/
+├── app/
+│   ├── page.tsx              ← Home dashboard with all 5 modules
+│   ├── layout.tsx
+│   ├── prompt-studio/page.tsx   ← Prompt Studio
+│   ├── intelligence/page.tsx    ← Video Intelligence Dashboard
+│   ├── storyboard/page.tsx      ← Storyboard Generator
+│   ├── script/page.tsx          ← Script to Scene Breakdown
+│   ├── pipeline/page.tsx        ← Full End-to-End Pipeline
+│   └── api/
+│       ├── analyze/route.ts
+│       ├── generate/route.ts
+│       ├── storyboard/route.ts
+│       └── script/route.ts
+├── components/Nav.tsx
+├── lib/claude.ts             ←  API utility
+└── .env.example
